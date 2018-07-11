@@ -36,7 +36,7 @@ add_a_key_value_pair
 
 
 def iterate_through_hash
-  summer_olympics_hash = {:Sydney => 2000, :Athens => 2004, :Beijing => 2008, :London => 2012}
+summer_olympics_hash = {:Sydney => "2000", :Athens => "2004", :Beijing => "2008", :London => "2012"}
   summer_olympics_hash.each do |each_place, each_year|
     puts "The #{each_year} summer olympics took place in #{each_place}."
   end
@@ -51,7 +51,7 @@ iterate_through_hash
 
 def iterate_through_keys
   
-  summer_olympics_hash = {:Sydney => 2000, :Athens => 2004, :Beijing => 2008, :London => 2012}
+summer_olympics_hash = {:Sydney => "2000", :Athens => "2004", :Beijing => "2008", :London => "2012"}
 summer_olympics_hash.keys
     
   # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair

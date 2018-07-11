@@ -52,10 +52,12 @@ iterate_through_hash
 def iterate_through_keys
   
 summer_olympics_hash = {:Sydney => "2000", :Athens => "2004", :Beijing => "2008", :London => "2012"}
-summer_olympics_hash.keys
+summer_olympics_hash.keys.upcase
+upcased_cities = summer_olympics_hash.keys.upcase
+puts upcased_cities
     
   # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
   # into uppercased Strings, creates a new array with these values, and then puts each upcase key in the CLI
 end
 
-puts iterate_through_keys
+iterate_through_keys

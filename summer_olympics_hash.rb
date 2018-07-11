@@ -38,7 +38,7 @@ add_a_key_value_pair
 def iterate_through_hash
 summer_olympics_hash = {:Sydney => "2000", :Athens => "2004", :Beijing => "2008", :London => "2012"}
   summer_olympics_hash.each do |each_place, each_year|
-    puts "The #{each_year} summer olympics took place in #{each_place}."
+    puts "The #{each_place} summer olympics took place in #{each_year}."
   end
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
